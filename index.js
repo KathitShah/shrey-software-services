@@ -11,7 +11,7 @@ function myFunction() {
     document.getElementById("navbar").style.margin = "0";
     document.getElementById("navbar").style.padding = "1rem 19rem 0.4rem 7rem";
     document.getElementById("request-demo").style.right = "-17.3%";
-    document.getElementById("request-demo").style.top = "0.5rem";
+    document.getElementById("request-demo").style.top = "0.9vh";
     document.getElementById("request-demo").style.paddingRight = "18%";
     document.getElementById("triangle").style.top = "11%";
     document.getElementById("triangle").style.right = "11.9%";
