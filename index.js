@@ -11,9 +11,9 @@ function myFunction() {
     document.getElementById("navbar").style.margin = "0";
     document.getElementById("navbar").style.padding = "1rem 19rem 0.4rem 7rem";
     document.getElementById("request-demo").style.right = "-17.3%";
-    document.getElementById("request-demo").style.top = "11%";
+    document.getElementById("request-demo").style.top = "0.5rem";
     document.getElementById("request-demo").style.paddingRight = "18%";
-    document.getElementById("triangle").style.top = "12.5%";
+    document.getElementById("triangle").style.top = "11%";
     document.getElementById("triangle").style.right = "11.9%";
   } else {
     document.getElementById("hide-header").style.display = "flex";
@@ -26,7 +26,7 @@ function myFunction() {
       "0.5rem 18rem 0.4rem 1.5rem";
     document.getElementById("request-demo").style.right = "-1.5%";
     document.getElementById("request-demo").style.top = "0";
-    document.getElementById("request-demo").style.padding = "2.9vh 1% 2.9vh 0";
+    document.getElementById("request-demo").style.padding = "3.13vh 1% 2.8vh 0";
     document.getElementById("triangle").style.top = "0";
     document.getElementById("triangle").style.right = "11.7%";
   }
