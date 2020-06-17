@@ -1,0 +1,402 @@
+h5 {
+  font-size: 1.05rem;
+}
+.flex {
+  display: flex;
+}
+.hide-header {
+  display: flex;
+  justify-content: space-between;
+}
+.middle-header {
+  margin: 0.5rem 5rem 0;
+}
+.navbar {
+  margin: 0.5rem 5rem 0;
+  background-color: #2251a1;
+  padding: 0.5rem 18rem 0.4rem 1.5rem;
+  position: absolute;
+  top: 9rem;
+  z-index: 2;
+}
+.top-header {
+  color: #f3303b;
+  background-color: #dbdbdb;
+  padding: 0 7%;
+}
+.email {
+  color: #000000;
+  text-decoration: none;
+}
+.email:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-icon {
+  color: #2251a1;
+  position: relative;
+}
+.header-text {
+  position: relative;
+  top: 5vh;
+  left: 6%;
+}
+.phone {
+  left: 3%;
+}
+#request-demo {
+  background-color: #000000;
+  padding: 2.9vh 1% 2.9vh 0;
+  position: absolute;
+  right: -1.5%;
+  top: 0;
+  z-index: 1;
+}
+#request-demo:hover {
+  color: #2251a1;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: solid 2.1rem;
+  border-color: transparent transparent black transparent;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 11.7%;
+  top: 0;
+}
+.home {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+.paddinglr {
+  padding-right: 1rem;
+}
+.contact {
+  padding-right: 0.5rem;
+}
+.navbar-brand {
+  font-size: 1.05rem;
+}
+.img-real {
+  width: 100vw;
+  margin-top: 7vh;
+}
+.blue {
+  padding: 2vh 0 2vh 0.5%;
+}
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.fade-in-top-header {
+  animation: fadeIn ease 2s;
+  animation-iteration-count: infinite;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 20rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: 3rem;
+  border: solid 1px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #2251a1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
+.middle-container-header {
+  color: #66a1ce;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+.fade-in-real-image {
+  animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+.middle-box {
+  margin: 1rem 5rem 2rem;
+  background-color: #fff;
+}
+.middle-box-p {
+  padding-left: 1.5rem;
+}
+.middle-container {
+  background-color: #ffffff;
+  padding-bottom: 3rem;
+}
+.justify {
+  text-align: justify;
+}
+.bg1-container {
+  background-image: url(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 200% 150vh;
+  position: relative;
+  display: flex;
+}
+.center {
+  text-align: center;
+}
+.black-white-letters {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  width: 37rem;
+  padding: 1rem;
+}
+.why-join {
+  margin: 1.2rem 2.5rem 1.2rem 2.5rem;
+  position: relative;
+  left: 1rem;
+  height: 32rem;
+}
+.upcoming {
+  margin: 1.2rem 1rem 1.2rem 0rem;
+  position: relative;
+  right: 1rem;
+}
+.bg1-hr {
+  background-color: #2251a1;
+  width: 10%;
+  height: 0.25rem;
+  position: relative;
+  left: 45%;
+}
+.bg1-hr-10 {
+  background-color: #444444;
+}
+.lower-grey {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+.certifications-container-header {
+  text-align: center;
+  color: #1b1be2;
+  margin-bottom: 1.5rem;
+}
+.certifications-container-qa-qtp {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 8rem 0;
+}
+.qa-qtp {
+  height: 50vh;
+  width: auto;
+}
+.qa-qtp-container {
+  position: absolute;
+  bottom: -181.5vh;
+  padding: 1rem 0 0.5rem 2rem;
+  background-color: rgba(0, 94, 255, 0.5);
+  width: 68.5vh;
+  color: #ffffff;
+}
+.qa-qtp-container a {
+  color: #fff;
+}
+.qa-qtp-container a:hover {
+  text-decoration: none;
+}
+.description {
+  display: none;
+}
+.fa-chevron-circle-up {
+  position: absolute;
+  right: 0.7rem;
+}
+.up-q {
+  transform: rotate(180deg);
+}
+.inline {
+  display: inline-block;
+  transition: height 2s;
+}
+.no-display {
+  display: none;
+  transition: height 2s;
+}
+.counter-container {
+  background-image: url("images/back_image-1.jpg");
+}
+.qa-baby {
+  background-image: url("images/QA.jpg");
+}
+.qa-baby {
+  background-image: url("images/QTP.jpg");
+}
+.counter-container {
+  width: 100%;
+  border-radius: 0;
+  padding: 1rem 5rem 3rem;
+}
+.counter-number1 {
+  margin: 0 10% 0 4%;
+}
+.counter-number2 {
+  margin: 0 10% 0 10%;
+}
+.counter-number3 {
+  margin: 0 10% 0 10%;
+}
+.counter-number4 {
+  margin: 0 4% 0 10%;
+}
+.info {
+  margin: 2rem 5rem 0;
+}
+.info1-img {
+  height: 20rem;
+}
+.info-p1 {
+  margin-right: 5rem;
+}
+.info2-img {
+  height: 21rem;
+}
+.trainer {
+  margin: 1.5rem 0;
+}
+.top-hr {
+  position: relative;
+  bottom: 0.7rem;
+}
+.benefits-container {
+  margin: 1rem 5rem 2.5rem;
+  padding: 2rem 3rem 2rem 1.5rem;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.benefit-td1 {
+  width: 22rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.benefit-td2 {
+  width: 25rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.benefit-td3 {
+  width: 20rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.blue-benefitsh:hover .blue-benefits {
+  color: #2251a1;
+  text-decoration: none;
+}
+.blue-benefits:hover {
+  text-decoration: none;
+}
+.fhi {
+  margin: 2rem 0 0 0;
+  padding-right: 1rem;
+}
+.benefit-td-full {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+h5 {
+  margin: 0;
+}
+.lower-gray {
+  color: #999999;
+}
+.footer-foot {
+  font-size: 1.1rem;
+  padding: 1rem 0 2rem;
+}
+.footer-first {
+  margin: 0.5rem 5rem 0;
+  padding: 2.75rem 0;
+}
+.about-footer {
+  width: 17rem;
+  font-size: 0.9rem;
+}
+.courses-footer {
+  width: 17rem;
+  font-size: 0.9rem;
+  margin: 0 0 0 3rem;
+}
+.articles-footer {
+  width: 17rem;
+  font-size: 0.9rem;
+  margin: 0 3rem 0 0;
+}
+.contact-footer {
+  width: 17rem;
+  font-size: 0.9rem;
+}
+.footer-blue {
+  color: #ffffff;
+}
+.footer-angle {
+  padding: 0 0.5rem 0 0;
+}
+.footer-phone {
+  padding: 0 0.5rem 0 0;
+  font-size: 2.5rem;
+}
+.footer-phone-number {
+  line-height: 1;
+}
+.footer-email {
+  color: #ffffff;
+  padding: 0 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+.footer-email-account {
+  color: #ffffff;
+}
+.footer-email-account:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-icon {
+  color: #2251a1;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.footer-icon:hover {
+  color: #ffffff;
+}
+.footer-headers {
+  margin-bottom: 2rem;
+}
