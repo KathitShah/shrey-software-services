@@ -47,7 +47,7 @@ h5 {
 }
 #request-demo {
   background-color: #000000;
-  padding: 2.9vh 1% 2.9vh 0;
+  padding: 3.13vh 1% 2.8vh 0;
   position: absolute;
   right: -1.5%;
   top: 0;
@@ -60,7 +60,7 @@ h5 {
 .triangle {
   width: 0;
   height: 0;
-  border: solid 2.1rem;
+  border: solid 4.5vh;
   border-color: transparent transparent black transparent;
   transform: rotate(-90deg);
   position: absolute;
